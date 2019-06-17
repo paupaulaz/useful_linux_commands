@@ -1,7 +1,10 @@
 # Useful Linux commands
 
-This file contains some useful commands gathered from various places.
+## This file contains some useful commands gathered from various places.
 _____________________________________________
+
+### Terminal commands:
+
 ```
 fc
 ```
@@ -17,3 +20,9 @@ sudo !!
 ```
 -> execute the last command as root
 
+### Keyboard shortcuts:
+
+```
+ctrl + maj + r
+```
+-> activate reverse history search
