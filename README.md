@@ -6,7 +6,6 @@ _____________________________________________
 fc
 ```
 -> fix the (long) previous command in a text editor
-```
 
 ```
 history
