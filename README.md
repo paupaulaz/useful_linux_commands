@@ -5,24 +5,31 @@ _____________________________________________
 
 ### Terminal commands:
 
+fix the (long) previous command in a text editor:
 ```
 fc
 ```
--> fix the (long) previous command in a text editor
 
+print out the last used commands:
 ```
 history
 ```
--> prints out the last used commands
 
+add a command to history before without executing it:
+```
+history -s <command>
+```
+
+
+execute the last command as root:
 ```
 sudo !!
 ```
--> execute the last command as root
+
 
 ### Keyboard shortcuts:
 
+activate reverse history search:
 ```
 ctrl + maj + r
 ```
--> activate reverse history search
