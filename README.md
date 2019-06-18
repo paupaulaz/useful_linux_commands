@@ -6,23 +6,23 @@ _____________________________________________
 ### Terminal commands:
 
 * fix the (long) previous command in a text editor:
-```
+```shell
 fc
 ```
 
 * print out the last used commands:
-```
+```shell
 history
 ```
 
 * add a command to history before without executing it:
-```
+```shell
 history -s <command>
 ```
 
 
 * execute the last command as root:
-```
+```shell
 sudo !!
 ```
 
