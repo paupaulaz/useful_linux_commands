@@ -5,6 +5,12 @@ _____________________________________________
 
 ### Terminal commands:
 
+* going back to the last working directory:
+
+```shell
+cd -
+```
+
 * fix the (long) previous command in a text editor:
 ```shell
 fc
