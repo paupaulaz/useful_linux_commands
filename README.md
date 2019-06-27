@@ -21,7 +21,7 @@ fc
 history
 ```
 
-* add a command to history before without executing it:
+* add a command to history without executing it:
 ```shell
 history -s <command>
 ```
