@@ -39,3 +39,18 @@ sudo !!
 ```
 ctrl + maj + r
 ```
+
+### Other Terminal tricks:
+* difference between piping and redirecting:
+
+# piping is for sending the output of a command to the input of an other. For ex:
+```shell
+ls | head -3
+```
+
+# redirecting is for writing the output to a file (existant or not):
+```
+cat file.txt > file_copy.txt
+```
+
+# if the file already exists, use '>>' to append to the end.
