@@ -33,6 +33,16 @@ sudo !!
 ```
 
 
+* usage of grep:
+```shell
+grep "pattern" file
+```
+
+* usage of grep to search in multiple files:
+```shell
+grep -r "pattern" folder 
+
+
 ### Keyboard shortcuts:
 
 * activate reverse history search:
