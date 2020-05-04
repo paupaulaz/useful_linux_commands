@@ -41,7 +41,7 @@ grep "pattern" file
 * usage of grep to search in multiple files:
 ```shell
 grep -r "pattern" folder 
-
+```
 
 ### Keyboard shortcuts:
 
@@ -64,3 +64,11 @@ cat file.txt > file_copy.txt
 ```
 
 * if the file already exists, use '>>' to append to the end.
+
+### Networking
+# finding what processes run on which ports
+
+```shell
+netstat -tulpn
+```
+
