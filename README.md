@@ -43,15 +43,15 @@ grep "pattern" file
 grep -r "pattern" folder 
 ```
 
-### Keyboard shortcuts:
+# Keyboard shortcuts:
 
 * activate reverse history search:
 ```
 ctrl + maj + r
 ```
 
-### Other Terminal tricks:
-# difference between piping and redirecting:
+# Other Terminal tricks:
+## difference between piping and redirecting:
 
 * piping is for sending the output of a command to the input of an other. For ex:
 ```shell
@@ -65,10 +65,18 @@ cat file.txt > file_copy.txt
 
 * if the file already exists, use '>>' to append to the end.
 
-### Networking
-# finding what processes run on which ports
+# Networking
+## finding what processes run on which ports
 
 ```shell
 netstat -tulpn
 ```
 
+## sending a file through netcat
+```shell
+nc -w 3 <DEST_IP> <DEST_PORT> < <FILE>
+```
+
+## receiving a file through netcat
+```shell
+nc -l <PORT> > <OUTFILE>
